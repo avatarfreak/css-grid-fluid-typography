@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/avatarfreak/css-grid-fluid-typography.git)
-- Live Site URL: [Add live site URL here](https://avatarfreak.github.io/css-grid-fluid-typography/)
+- Solution URL: [https://github.com/avatarfreak/css-grid-fluid-typography.git](https://github.com/avatarfreak/css-grid-fluid-typography.git)
+- Live Site URL: [https://avatarfreak.github.io/css-grid-fluid-typography/](https://avatarfreak.github.io/css-grid-fluid-typography/)
 
 ## My process
 
