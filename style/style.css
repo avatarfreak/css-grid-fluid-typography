@@ -162,4 +162,22 @@ footer {
     padding-right: 2em;
   }
 }
+
+@media (min-width: 900px) {
+  body {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1366px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    font-size: 24px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -142,3 +142,20 @@ footer {
     }
   }
 }
+@include laptop {
+  body {
+    font-size: 19px;
+  }
+}
+
+@include desktop {
+  body {
+    font-size: 22px;
+  }
+}
+
+@include lg-desktop {
+  body {
+    font-size: 24px;
+  }
+}
