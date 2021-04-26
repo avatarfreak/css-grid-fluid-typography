@@ -109,3 +109,36 @@ footer {
     }
   }
 }
+/** Tablet **/
+@include tablet {
+  body {
+    font-size: 16px;
+    text-align: left;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    header {
+      grid-column: 2/3;
+      grid-row: 1;
+    }
+
+    .card__content {
+      grid-column: 1/2;
+      grid-row: 1;
+
+      &__stats {
+        display: flex;
+
+        & > * {
+          flex: 1 1 100%;
+          padding-right: 2em;
+        }
+      }
+    }
+  }
+}
