@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./style/style.css" />
+
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <div class="container">
+    <header>
+      <picture>
+        <source media="(min-width: 768px)" srcset="./images/image-header-desktop.jpg">
+        <img src="./images/image-header-mobile.jpg" alt="people-discussing-pictures">
+      </picture>
+    </header>
 
-  Get insights that help your business grow.
+    <main class="card__content">
+      <h1 class="card__content-title">Get <span>insights</span> that help your business grow.</h1>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <p class="card__content-text">
+        Discover the benefits of data analytics and make better decisions regarding revenue,
+        customer experience, and overall efficiency.
+      </p>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+      <section class="card__content__stats">
+        <div class="card__content__stats-details">
+          <h2>10k+</h2>
+          <p>companies</p>
+        </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="card__content__stats-details">
+          <h2>314</h2>
+          <p>templates</p>
+        </div>
+
+        <div class="card__content__stats-details">
+          <h2>12M+</h2>
+          <p>queries</p>
+        </div>
+      </section>
+    </main>
+  </div><!-- Container -->
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.pigoat.com">avatarfreak</a>.
+    </div>
+  </footer>
 </body>
+
 </html>
